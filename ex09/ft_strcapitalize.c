@@ -6,7 +6,7 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 11:03:53 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/12 13:41:44 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/14 23:03:52 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strcapitalize(char *str)
 	i = 0;
 	while (str[i])
 	{
+		if (str[i] >= 65 && str[i] <= 90)
+			str[i] = str[i] + 32;
 		if (str[i] >= 97 && str[i] <= 122)
 		{
 			if (str[0] >= 97 && str[i] <= 122)
@@ -39,7 +41,7 @@ char	*ft_strcapitalize(char *str)
 
 /*int	main(void)
 {
-	char str1[]= "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
+	char str1[]= "salut, commeNt tu vas ? 42mots quarante-deux; cinquante+et+un";
 
         ft_strcapitalize(str1);
         printf("%s\n", str1);
