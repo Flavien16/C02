@@ -6,7 +6,7 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 11:03:53 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/15 02:27:32 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/15 02:57:35 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,4 @@ char	*ft_strcapitalize(char *str)
         ft_strcapitalize(str1);
         printf("%s\n", str1);
         return (0);
-}*/	
+}*/
