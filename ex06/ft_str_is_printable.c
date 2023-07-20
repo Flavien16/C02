@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 10:07:46 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/12 10:26:57 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:35:15 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_printable(char *str)
 {

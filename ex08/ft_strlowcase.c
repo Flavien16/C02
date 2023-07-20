@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 10:57:04 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/12 11:03:08 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:35:45 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {

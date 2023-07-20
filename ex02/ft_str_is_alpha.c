@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 08:21:29 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/12 09:57:46 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:34:03 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {

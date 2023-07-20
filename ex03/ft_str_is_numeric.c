@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 09:09:03 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/12 10:06:01 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:34:19 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 10:27:58 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/12 10:56:09 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:35:33 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
